@@ -111,8 +111,8 @@ if __name__ == "__main__":
         "WEBSITE": "xxxxxxxxxxx"
     }
 
-    print verify_checksum(
+    print(verify_checksum(
         params, 'xxxxxxxxxxxxxxxx',
-        "CD5ndX8VVjlzjWbbYoAtKQIlvtXPypQYOg0Fi2AUYKXZA5XSHiRF0FDj7vQu66S8MHx9NaDZ/uYm3WBOWHf+sDQAmTyxqUipA7i1nILlxrk=")
+        "CD5ndX8VVjlzjWbbYoAtKQIlvtXPypQYOg0Fi2AUYKXZA5XSHiRF0FDj7vQu66S8MHx9NaDZ/uYm3WBOWHf+sDQAmTyxqUipA7i1nILlxrk="))
 
     # print generate_checksum(params, "xxxxxxxxxxxxxxxx")
